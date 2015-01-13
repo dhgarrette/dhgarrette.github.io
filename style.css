@@ -1,0 +1,154 @@
+body { 
+  font-family: "Helvetica", "arial", sans-serif;
+  font-size: 10pt;
+  background-color: #4d4d4d;
+  color: #000000;
+  background-image: url(http://www.cs.utexas.edu/~dhg/img/dan_garrette_background.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-position: 15px 45px;
+}
+
+div.header {
+  height: 112px;
+}
+
+div.pageTitle {
+  color: #fff;
+  font-size: 50pt;
+  margin-left: 10px;
+  padding-top: 44px;
+  padding-left: 71px;
+  text-shadow: 6px 6px 20px #000;
+}
+
+div.bodycontent p {
+  line-height: 140%;
+}
+
+div.bodyinnercontent {
+  margin-left: 84px;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  padding: 40px 25px 60px 25px;
+  background-image: url(http://www.cs.utexas.edu/~dhg/img/dan_garrette_logo.png);
+  background-size: 5%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+div.section {
+
+}
+
+div.subsection {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.intro {
+  margin: 0px 0px 25px 15px
+}
+
+.sectionTitle {
+  font-size: 16pt;
+  font-weight: bold;
+  margin: 25px 0px 3px 15px;
+}
+
+.sectionSubtitle {
+  font-size: 12pt;
+  font-weight: bold;
+  margin: 5px 0px 10px 15px;
+}
+
+.contentLine {
+  margin: 0px 0px 0px 15px;
+}
+
+div.contact {
+  margin: 0px 0px 0px 400px;
+}
+
+.publine {
+  font-size: 10pt;
+  margin: 0px 0px 10px 35px
+}
+
+.papertitle {
+  /*font-weight: bold;*/
+}
+
+span.myname {
+  /*font-weight: bold;*/
+}
+
+.abstract {
+  font-size: 9pt;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: auto; /* centers the content */
+  margin-right: auto; /* centers the content */
+  padding: 5px 15px 5px 15px;
+  background-color: #EEE;
+  width: 500px;
+}
+.abstract p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.codeblock {
+  font-family: courier;
+  font-size: 7pt;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: auto; /* centers the content */
+  margin-right: auto; /* centers the content */
+  padding: 5px 15px 5px 15px;
+  background-color: #EEE;
+  width: 500px;
+}
+.codeblock p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+div.credit {
+  font-size: 10pt;
+  text-align: right;
+  margin-left: 84px;
+  width: 600px;
+  padding: 5px 5px 10px 25px;
+}
+
+div.credit a:link { 
+  color: #000000;
+}
+
+div.credit a:visited { 
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link { 
+  color: #495C1E;
+}
+
+a:visited { 
+  color: #495C1E;
+}
+
+a:hover { 
+  color: #000000;
+}
+
+a:active { 
+  color: #ED693C;
+}
+

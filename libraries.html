@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<HEAD><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
+<title>Dan Garrette - Scala Libraries</title>
+<META NAME="Description" CONTENT="Dan Garrette is a Computer Science Ph.D. student at the University of Texas at Austin. His current research focuses on Natural Language Processing and Machine Learning."/>
+<META NAME="Keywords" CONTENT="Dan Garrette, computer science, Ph.D., university of texas, austin, research, computational linguistics, computational semantics, natural language processing, nlp, machine learning, low resource, weakly supervised, scala"/>
+<META NAME="Robots" CONTENT="INDEX,FOLLOW"/>
+<meta name="google-site-verification" content="R2q59ku5ZHesYRQIZkgiYtHIco5nd2dGKYs_rPbzZtE" />
+
+<!--<link rel="stylesheet" type="text/css" href="https://www.cs.utexas.edu/~dhg/style.css" />-->
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19449409-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</HEAD>
+
+<BODY class="homepage">
+  <DIV class="header"><DIV class="pageTitle"><b>Dan</b> Garrette</DIV></DIV>
+  <DIV class="bodycontent">
+    <DIV class="bodyinnercontent">
+
+    <div class="section">
+    <p class="sectionTitle">Scala Libraries</p>
+
+        <div class="subsection">
+        <p class="sectionSubtitle">scala-util</p>
+        <p class="contentLine">
+          <a class="papertitle">Extensions to the Scala libraries for things that I feel are lacking.</a>
+          <p class="content publine">
+            <a href="https://github.com/dhgarrette/scala-util">repository</a> <br/>
+            <a href="http://www.cs.utexas.edu/~dhg/maven-repository/snapshots/dhg/scala-util_2.10/1.0.0-SNAPSHOT/api/">API</a> <br/>
+            SBT depdenency inclusion (add to build.sbt)
+              <div class="codeblock">
+                <p>
+                  resolvers ++= Seq( <br/>
+                  &nbsp;&nbsp;"dhg releases repo" at "http://www.cs.utexas.edu/~dhg/maven-repository/releases", <br/>
+                  &nbsp;&nbsp;"dhg snapshot repo" at "http://www.cs.utexas.edu/~dhg/maven-repository/snapshots") <br/>
+                   <br/>
+                  libraryDependencies += "dhg" % "scala-util_2.10" % "1.0.0-SNAPSHOT" changing()
+                </p>
+              </div>
+          </p>
+        </div>
+
+        <div class="subsection">
+        <p class="sectionSubtitle">condor-util</p>
+        <p class="contentLine">
+          <p class="content publine">
+            <a href="https://github.com/dhgarrette/condor-util">repository</a> <br/>
+            <a href="http://www.cs.utexas.edu/~dhg/maven-repository/snapshots/dhg/condor-util_2.10/1.0.0-SNAPSHOT/api/">API</a> <br/>
+            SBT depdenency inclusion (add to build.sbt)
+              <div class="codeblock">
+                <p>
+                  resolvers ++= Seq( <br/>
+                  &nbsp;&nbsp;"dhg releases repo" at "http://www.cs.utexas.edu/~dhg/maven-repository/releases", <br/>
+                  &nbsp;&nbsp;"dhg snapshot repo" at "http://www.cs.utexas.edu/~dhg/maven-repository/snapshots") <br/>
+                   <br/>
+                  libraryDependencies += "dhg" % "condor-util_2.10" % "1.0.0-SNAPSHOT" changing()
+                </p>
+              </div>
+          </p>
+        </div>
+
+        <div class="subsection">
+        <p class="sectionSubtitle">nlp</p>
+        <p class="contentLine">
+          <p class="content publine">
+            <a href="https://github.com/dhgarrette/nlp">repository</a> <br/>
+            <a href="http://www.cs.utexas.edu/~dhg/maven-repository/snapshots/dhg/nlp_2.10/1.0.0-SNAPSHOT/api/">API</a> <br/>
+            SBT depdenency inclusion (add to build.sbt)
+              <div class="codeblock">
+                <p>
+                  resolvers ++= Seq( <br/>
+                  &nbsp;&nbsp;"dhg releases repo" at "http://www.cs.utexas.edu/~dhg/maven-repository/releases", <br/>
+                  &nbsp;&nbsp;"dhg snapshot repo" at "http://www.cs.utexas.edu/~dhg/maven-repository/snapshots") <br/>
+                   <br/>
+                  libraryDependencies += "dhg" % "nlp_2.10" % "1.0.0-SNAPSHOT" changing()
+                </p>
+              </div>
+          </p>
+        </div>
+
+
+    </div>
+    </DIV>
+  </DIV>
+  <DIV class="credit">photo and website design by <a href="http://kristinserna.blogspot.com/">Kristin Serna</a></DIV>
+
+</BODY>
+
