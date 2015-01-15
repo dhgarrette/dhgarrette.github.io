@@ -3,7 +3,7 @@ body {
   font-size: 10pt;
   background-color: #4d4d4d;
   color: #000000;
-  background-image: url(http://www.cs.utexas.edu/~dhg/img/dan_garrette_background.png);
+  background-image: url(img/dan_garrette_background.png);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-position: 15px 45px;
@@ -33,7 +33,7 @@ div.bodyinnercontent {
   border-radius: 8px;
   -moz-border-radius: 8px;
   padding: 40px 25px 60px 25px;
-  background-image: url(http://www.cs.utexas.edu/~dhg/img/dan_garrette_logo.png);
+  background-image: url(img/dan_garrette_logo.png);
   background-size: 5%;
   background-repeat: no-repeat;
   background-position: bottom right;
