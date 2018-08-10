@@ -28,15 +28,15 @@ div.bodycontent p {
 
 div.bodyinnercontent {
   margin-left: 84px;
-  width: 600px;
+  width: 650px;
   background-color: #fff;
   border-radius: 8px;
   -moz-border-radius: 8px;
-  padding: 40px 25px 60px 25px;
-  background-image: url(img/dan_garrette_logo.png);
-  background-size: 5%;
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  padding: 40px 10px 60px 25px;
+  background-image: url(img/dan_garrette_photo.jpg), url(img/dan_garrette_logo.png);
+  background-size: 40%, 5%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 370px 40px, bottom right;
 }
 
 div.section {
@@ -120,16 +120,13 @@ div.credit {
   font-size: 10pt;
   text-align: right;
   margin-left: 84px;
-  width: 600px;
+  width: 650px;
   padding: 5px 5px 10px 25px;
+  color: #AAA;
 }
 
-div.credit a:link { 
-  color: #000000;
-}
-
-div.credit a:visited { 
-  color: #000000;
+div.credit a { 
+  color: #AAA;
 }
 
 a {
@@ -145,7 +142,7 @@ a:visited {
 }
 
 a:hover { 
-  color: #000000;
+  color: #6B7E3F;
 }
 
 a:active { 
